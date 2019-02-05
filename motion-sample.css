@@ -1,0 +1,7 @@
+
+/*sample motion css*/
+
+/*add a box shadow to a motion hovered element*/
+.motion-element.hover { box-shadow: 0px 0px 100px orange; }
+/*adjust the z-index of the motion pointer*/
+.ext-motion-cursor { z-index: 9001; }

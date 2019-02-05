@@ -1,0 +1,42 @@
+
+/*styling for the debug container*/
+/*-sits on the right side of the screen by default*/
+.motion-debug-container { 
+	position: fixed; 
+	top:50px;
+	right: 8px;
+	height: auto;
+	width: 200px;
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	background: rgba(255,255,255,.75);
+	border: 1px solid;
+	padding: 5px;
+	text-align:left;
+	z-index: 999999999;
+	overflow: hidden;
+	display: none;
+}
+.motion-debug-container.open { 
+	display: block;
+}
+#motion-debug-pause, #motion-debug-mclose { margin-right: 10px; }
+#motion-debug-mclose { float: right; }
+#motion-debug-pause { width: 45px; }
+
+.motion-debug-container input {
+	-webkit-appearance: push-button;
+	-webkit-user-select: none;
+	white-space: pre;
+}
+.ext-motion-cursor {
+	display: none;
+	position: absolute;
+	height:16px;
+	width: 16px;
+	background-size: 16px;
+	z-index: 9999999;
+}
+.ext-motion-cursor { z-index: 9999999; }
+.ext-motion-cursor.enabled { display: block; }
