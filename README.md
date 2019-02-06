@@ -13,9 +13,9 @@ Adds gesture control for scrolling the window (main hand, palm up, fist closed) 
 
 See the samples in **motion-sample.js** and **motion-sample.css**
 
-Include **ext-leap-motion.js** in the manifest for content scripts, or as a regular script on extension pages.
+Include **ext-leap-motion.js** and **ext-leap-motion.css** in the manifest for content scripts, or as a regular script on extension pages.
 
-**Suggested usage** - include **ext-leap-motion.js** on <all_urls> so that it'll be available to all content scripts
+**Suggested usage** - include **ext-leap-motion.js** and **ext-leap-motion.css** on <all_urls> so that it'll be available to all content scripts
 
 
 ## Support
