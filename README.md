@@ -2,6 +2,8 @@
 
 Script for defining gesture controls in content scripts using the Leap Motion controller
 
+Tested through **Chrome 72**
+
 Requires a [Leap Motion controller](https://www.leapmotion.com/), the [Leap Motion runtime](https://www.leapmotion.com/setup/), and the [Leap Motion JavaScript library](https://developer-archive.leapmotion.com/javascript) (tested with 0.6.4, which is included)
 
 Requires **jQuery** - tested with 3.3.1. **jQuery-free version coming soon!**
